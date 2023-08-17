@@ -5,7 +5,6 @@ export type EnemyPos = {
 
 export type Enemy = {
   EnemyPos: EnemyPos;
-  radius: number;
 };
 
 export const enemyUsecase = {
@@ -27,14 +26,6 @@ export const enemyUsecase = {
       default:
         break;
     }
-    return Enemy;
-  },
-  verticalMove: (Enemy: Enemy) => {
-    Enemy.EnemyPos.y += 10;
-    return Enemy;
-  },
-  horizontalMove: (Enemy: Enemy) => {
-    Enemy.EnemyPos.x -= 10;
     return Enemy;
   },
 };
