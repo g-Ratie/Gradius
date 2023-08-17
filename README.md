@@ -18,7 +18,7 @@ https://nodejs.org/ja/ の左ボタン、LTS をダウンロードしてイン�
 ```sh
 $ npm i
 $ npm i --prefix server
-```ゆおん/プルリク
+```ゆおん/fork
 
 ### 環境変数ファイルの作成
 
